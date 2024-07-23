@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Website</title>
+    <title>Bookmark Manager</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-gallery">
-            <h2>Navbar Gallery</h2>
+            <h2>Bookmark Manager</h2>
             <ul>
-                <li><a href="#">Static</a></li>
-                <li><a href="#">Dropdown</a></li>
-                <li><a href="#">Mega Menu</a></li>
-                <li><a href="#">Progress Bar</a></li>
-                <li><a href="#">Side Bar</a></li>
-                <li><a href="#">Search Bar</a></li>
-                <li><a href="#">Announcement</a></li>
-                <li><a href="#">Full Screen</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">All Bookmarks</a></li>
+                <li><a href="#">Add Bookmark</a></li>
+                <li><a href="#">Categories</a></li>
             </ul>
         </div>
     </div>
     <div class="content">
         <header>
-            <h1>Home to the best navbars on the internet</h1>
-            <p>Find the best navigation inspirations for your design.</p>
+            <h1>Manage Your Bookmarks Effectively</h1>
+            <p>Organize and access your bookmarks with ease.</p>
             <div class="buttons">
-                <button>Subscribe</button>
-                <button>Submit</button>
+                <button>Get Started</button>
             </div>
         </header>
         <div class="gallery">
+            <!-- Bookmark items will go here -->
             <div class="item">
-                <h2>We back the best for the distance.</h2>
-            </div>
-            <div class="item">
-                <h2>Engineered for marketing brands.</h2>
+                <h2>Sample Bookmark</h2>
+                <p>Description of the bookmark.</p>
+                <a href="#" class="btn">Visit</a>
             </div>
         </div>
+        <div id="3d-container"></div>
     </div>
     <script src="script.js"></script>
 </body>
